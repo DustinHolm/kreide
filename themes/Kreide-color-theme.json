@@ -2,27 +2,26 @@
 	"name": "Kreide",
 	"semanticHighlighting": false,
 	"colors": {
-		"activityBar.background": "#1d1d1d",
+		"activityBar.background": "#1e1f1c",
 		"activityBar.foreground": "#f0f0f0",
-		"activityBar.inactiveForeground": "#707070",
-		"activityBarBadge.background": "#0486e2",
-		"breadcrumb.background": "#262626",
-		"editor.background": "#222222",
+		"activityBar.inactiveForeground": "#717269",
+		"breadcrumb.background": "#2f302d",
+		"editor.background": "#222320",
 		"editor.foreground": "#f0f0f0",
 		"editor.lineHighlightBackground": "#404040",
 		"editor.selectionBackground": "#404040",
 		"editorCursor.foreground": "#f0f0f0",
-		"editorGroupHeader.tabsBackground": "#1d1d1d",
-		"editorGutter.background": "#1d1d1d",
+		"editorGroupHeader.tabsBackground": "#1e1f1c",
+		"editorGutter.background": "#1e1f1c",
 		"editorWhitespace.foreground": "#404040",
-		"input.background": "#1d1d1d",
-		"menu.background": "#222222",
-		"sideBar.background": "#262626",
+		"input.background": "#1e1f1c",
+		"menu.background": "#2f302d",
+		"sideBar.background": "#222320",
 		"sideBar.foreground": "#f0f0f0",
-		"sideBarSectionHeader.background": "#404040",
-		"tab.activeBackground": "#262626",
-		"tab.inactiveBackground": "#1d1d1d",
-		"terminal.background": "#222222",
+		"sideBarSectionHeader.background": "#2f302d",
+		"tab.activeBackground": "#2f302d",
+		"tab.inactiveBackground": "#1e1f1c",
+		"terminal.background": "#222320",
 		"editorBracketHighlight.foreground1": "#bbb",
 		"editorBracketHighlight.foreground2": "#999",
 		"editorBracketHighlight.foreground3": "#ddd",
@@ -147,7 +146,7 @@
 				"punctuation.accessor.optional"
 			],
 			"settings": {
-				"foreground": "#eeaadd"
+				"foreground": "#ff8888"
 			}
 		},
 		{
@@ -172,20 +171,12 @@
 				"entity.name.type.lifetime",
 				"entity.name.function.preprocessor",
 				"storage.type.annotation",
-				"punctuation.definition.annotation"
-			],
-			"settings": {
-				"foreground": "#cc9988"
-			}
-		},
-		{
-			"name": "Important",
-			"scope": [
+				"punctuation.definition.annotation",
 				"variable.language.this",
 				"variable.language.self"
 			],
 			"settings": {
-				"foreground": "#ff8888"
+				"foreground": "#eeaadd"
 			}
 		},
 		{
