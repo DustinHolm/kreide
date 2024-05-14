@@ -3,7 +3,9 @@
 All notable changes to the "kreide" extension will be documented in this file.
 
 ## [0.1.0]
+
 ### Added
+
 - Basic style guide
 - Rust support
 - JavaScript support

@@ -1,21 +1,21 @@
 {
-    "name": "kreide",
-    "displayName": "Kreide",
-    "description": "Placeholder",
-    "version": "0.1.0",
-    "engines": {
-        "vscode": "^1.67.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Kreide",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Kreide-color-theme.json"
-            }
-        ]
-    }
+  "name": "kreide",
+  "displayName": "Kreide",
+  "description": "Placeholder",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kreide",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kreide-color-theme.json"
+      }
+    ]
+  }
 }
