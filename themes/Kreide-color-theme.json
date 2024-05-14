@@ -90,12 +90,13 @@
     {
       "name": "Supporting content",
       "scope": [
-        "storage.modifier",
-        "storage.type.package",
+        "storage.type.function",
+        "storage.type.class",
         "entity.other",
         "keyword.other.rust",
         "keyword.other",
         "keyword.control.import",
+        "keyword.control.type",
         "storage.type.import",
         "keyword.control.from",
         "keyword.control.default",
@@ -105,6 +106,7 @@
         "entity.name.namespace",
         "entity.name.module",
         "keyword.control.directive.include",
+        "keyword.other.fn",
         "punctuation.definition.directive",
         "keyword.declaration.dart"
       ],
@@ -156,6 +158,8 @@
     {
       "name": "Control flow",
       "scope": [
+        "storage.type",
+        "storage.modifier",
         "keyword.control",
         "keyword.operator.new",
         "keyword.operator.logical",
@@ -164,7 +168,9 @@
         "keyword.operator.ternary",
         "keyword.operator.arrow.fat",
         "keyword.operator.question",
-        "punctuation.accessor.optional"
+        "keyword.hard.kotlin",
+        "punctuation.accessor.optional",
+        "storage.type.function.arrow"
       ],
       "settings": {
         "foreground": "#ff8888"
@@ -174,8 +180,6 @@
       "name": "Descriptors",
       "scope": [
         "entity.name",
-        "storage.type",
-        "keyword.other.fn",
         "entity.name.type",
         "support.type",
         "support.class"
