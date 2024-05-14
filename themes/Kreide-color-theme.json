@@ -16,6 +16,9 @@
     "editorWhitespace.foreground": "#404040",
     "input.background": "#1e1f1c",
     "menu.background": "#2f302d",
+    "titleBar.activeBackground": "#1e1f1c",
+    "titleBar.activeForeground": "#f0f0f0",
+    "titleBar.inactiveBackground": "#1e1f1c",
     "sideBar.background": "#222320",
     "sideBar.foreground": "#f0f0f0",
     "sideBarSectionHeader.background": "#2f302d",
@@ -45,8 +48,7 @@
     "terminal.ansiMagenta": "#bb99ee",
     "terminal.ansiRed": "#ff8888",
     "terminal.ansiWhite": "#f0f0f0",
-    "terminal.ansiYellow": "#ffbb77",
-    "terminal.hoverHighlightBackground": "#ff0000"
+    "terminal.ansiYellow": "#ffbb77"
   },
   "tokenColors": [
     {
@@ -109,7 +111,8 @@
         "keyword.other.fn",
         "punctuation.definition.directive",
         "keyword.declaration.dart",
-        "storage.modifier.java"
+        "storage.modifier.java",
+        "storage.type.package"
       ],
       "settings": {
         "foreground": "#bb99ee"
