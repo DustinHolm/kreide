@@ -108,7 +108,8 @@
         "keyword.control.directive.include",
         "keyword.other.fn",
         "punctuation.definition.directive",
-        "keyword.declaration.dart"
+        "keyword.declaration.dart",
+        "storage.modifier.java"
       ],
       "settings": {
         "foreground": "#bb99ee"
@@ -121,7 +122,8 @@
         "entity.name.function",
         "support.function",
         "keyword.operator.dereference",
-        "keyword.operator.borrow"
+        "keyword.operator.borrow",
+        "meta.function-call"
       ],
       "settings": {
         "foreground": "#88ccff"
@@ -149,7 +151,8 @@
         "support.variable.property",
         "source.rust",
         "meta.function.call.rust",
-        "entity.other.attribute-name"
+        "entity.other.attribute-name",
+        "variable.other.member"
       ],
       "settings": {
         "foreground": "#99ddaa"
@@ -182,7 +185,9 @@
         "entity.name",
         "entity.name.type",
         "support.type",
-        "support.class"
+        "support.class",
+        "storage.type.java",
+        "storage.type.generic.java"
       ],
       "settings": {
         "foreground": "#eedd66"
