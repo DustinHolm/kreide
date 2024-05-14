@@ -76,10 +76,12 @@
       "scope": [
         "variable",
         "variable.parameter",
-        "support.type.property-name.json",
+        "support.type.property-name",
+        "entity.name.tag.yaml",
         "meta.property-name",
         "meta.object-literal.key",
-        "meta.method.body.java"
+        "meta.method.body.java",
+        "keyword.other.definition.ini"
       ],
       "settings": {
         "foreground": "#f0f0f0"
@@ -89,15 +91,17 @@
       "name": "Supporting content",
       "scope": [
         "storage.modifier",
+        "storage.type.package",
         "entity.other",
         "keyword.other.rust",
         "keyword.other",
         "keyword.control.import",
-        "storage.type.import.kotlin",
+        "storage.type.import",
         "keyword.control.from",
         "keyword.control.default",
         "keyword.control.export",
         "variable.language.super",
+        "entity.name.package",
         "entity.name.namespace",
         "entity.name.module",
         "keyword.control.directive.include",
@@ -124,6 +128,7 @@
     {
       "name": "Constants",
       "scope": [
+        "source.ini",
         "string",
         "constant",
         "support.type.property-attribute",
